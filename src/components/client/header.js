@@ -1,20 +1,20 @@
-'use client'
+"use client";
 
-import { useEffect, useState } from "react"
-import Link from "next/link"
-import ThemeToggle from "./ui/toggleTheme"
+import { useEffect, useState } from "react";
+import Link from "next/link";
+import ThemeToggle from "../ui/toggleTheme";
 
 export default function Header() {
-  const [scrolled, setScrolled] = useState(false)
+  const [scrolled, setScrolled] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
-      setScrolled(window.scrollY > 50)
-    }
+      setScrolled(window.scrollY > 50);
+    };
 
-    window.addEventListener("scroll", handleScroll)
-    return () => window.removeEventListener("scroll", handleScroll)
-  }, [])
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
 
   return (
     <header
@@ -25,7 +25,9 @@ export default function Header() {
       }`}
     >
       <nav className="flex justify-between items-center p-4 text-xl dark:text-white text-black">
-        <a href="#" className="font-bold">PicTSnap</a>
+        <a href="#" className="font-bold">
+          PicTSnap
+        </a>
 
         <div className="text-lg flex gap-6">
           <a href="#service">Service</a>
@@ -40,5 +42,5 @@ export default function Header() {
         </div>
       </nav>
     </header>
-  )
+  );
 }
