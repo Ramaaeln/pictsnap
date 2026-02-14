@@ -37,7 +37,7 @@ export default function Header() {
         </div>
 
         <div className="text-lg flex gap-4 items-center">
-          <Link href="">SignIn</Link> | <Link href="">SignUp</Link>
+          <Link href="/auth">SignIn</Link>
           <ThemeToggle />
         </div>
       </nav>
