@@ -12,7 +12,7 @@ const photos = [
 
 export default function Gallery() {
   return (
-    <section className="relative py-24 bg-white dark:bg-black transition-colors">
+    <section id="gallery" className="relative py-24 bg-white dark:bg-black transition-colors">
       <div className="max-w-6xl mx-auto px-6">
 
         <div className="text-center mb-16">

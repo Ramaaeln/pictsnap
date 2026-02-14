@@ -36,7 +36,7 @@ export default function Header() {
           <div className="hidden md:flex text-lg gap-6 items-center">
             <a href="#service">Service</a>
             <a href="#pricing">Pricing</a>
-            <Link href="/gallery">Gallery</Link>
+            <a href="#gallery">Gallery</a>
             <a href="#chat">Chat</a>
             <Link href="/auth">SignIn</Link>
             <ThemeToggle />
@@ -84,7 +84,7 @@ export default function Header() {
               <nav className="flex flex-col gap-5 text-lg">
                 <a href="#service" onClick={() => setMobileOpen(false)}>Service</a>
                 <a href="#pricing" onClick={() => setMobileOpen(false)}>Pricing</a>
-                <Link href="/gallery" onClick={() => setMobileOpen(false)}>Gallery</Link>
+                <a href="#gallery" onClick={() => setMobileOpen(false)}>Gallery</a>
                 <a href="#chat" onClick={() => setMobileOpen(false)}>Chat</a>
                 <Link href="/auth" onClick={() => setMobileOpen(false)}>SignIn</Link>
               </nav>
