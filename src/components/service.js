@@ -24,7 +24,7 @@ const services = [
 ]
 export default function Service() {
   return (
-    <div id="service" className="relative flex text-white bg-[#FEFFD3] dark:bg-black flex  h-screen w-full  items-start justify-start overflow-hidden">
+    <div id="service" className="relative flex text-white bg-[#FFFDF1] dark:bg-black flex  h-screen w-full  items-start justify-start overflow-hidden">
       <BackgroundRippleEffect />
       <div className="mt-30 w-full">
         <h1 className="text-7xl z-10 ml-80 font-bold uppercase bg-gradient-to-r from-black/10 dark:from-white/10 to-pink-500 bg-clip-text text-transparent">

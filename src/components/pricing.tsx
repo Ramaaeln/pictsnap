@@ -50,7 +50,7 @@ const plans: Plan[] = [
 
 export default function Pricing() {
   return (
-    <section id="pricing"  className="relative py-24 bg-white dark:bg-black transition-colors">
+    <section id="pricing"  className="relative py-24 bg-[#FFFDF1] dark:bg-black transition-colors">
       <div className="max-w-6xl mx-auto px-6">
         
         <div  className="text-center mb-16">
