@@ -46,7 +46,7 @@ export default function Service() {
             <InfiniteMovingCards
               items={services}
               direction="right"
-              speed="normal"
+              speed="fast"
               className="py-16"
             />
           </div>
