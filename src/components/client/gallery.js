@@ -20,7 +20,7 @@ export default function Gallery() {
             Our Gallery
           </h2>
           <p className="text-gray-500 dark:text-gray-400 mt-4">
-            Capture your best moments with PicTSnap
+            Capture your best moments with PicTSnap and share them with the world!
           </p>
         </div>
 
